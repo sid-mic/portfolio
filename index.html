@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddhartha Sharma - Full Stack Developer & Technology Associate</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Siddhartha Sharma</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Full Stack Developer</span>
+                    <br>& Technology Associate
+                </h1>
+                <p class="hero-subtitle">
+                    Specialized in building scalable web applications, database management, and cloud infrastructure. 
+                    5+ years of experience in developing mission-critical systems for government and enterprise clients.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>5+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat">
+                        <h3>10+</h3>
+                        <p>Projects Delivered</p>
+                    </div>
+                    <div class="stat">
+                        <h3>3L+</h3>
+                        <p>Users Served</p>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#experience" class="btn btn-secondary">View Work</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-window">
+                    <div class="window-header">
+                        <div class="window-controls">
+                            <span class="control close"></span>
+                            <span class="control minimize"></span>
+                            <span class="control maximize"></span>
+                        </div>
+                        <span class="window-title">portfolio.php</span>
+                    </div>
+                    <div class="code-content">
+                        <pre><code class="php">
+&lt;?php
+class Developer {
+    private $skills = [
+        'PHP', 'Laravel', 'React', 
+        'SQL', 'Azure', 'AWS'
+    ];
+    
+    public function build() {
+        return "Scalable Solutions";
+    }
+}
+                        </code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <p class="section-subtitle">Building robust systems and scalable applications</p>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Developer</h3>
+                            <span class="timeline-date">Apr 2023 - Present</span>
+                        </div>
+                        <h4>Ministry of Education, Innovation Cell</h4>
+                        <div class="timeline-projects">
+                            <div class="project-card">
+                                <h5><i class="fas fa-code"></i> Smart India Hackathon Portal</h5>
+                                <p>Developed and maintained the world's biggest hackathon portal serving 3+ lakh students across India. Built with Laravel and hosted on Azure cloud.</p>
+                                <div class="tech-tags">
+                                    <span class="tag">Laravel</span>
+                                    <span class="tag">Azure</span>
+                                    <span class="tag">MySQL</span>
+                                </div>
+                            </div>
+                            <div class="project-card">
+                                <h5><i class="fas fa-network-wired"></i> Ministry of Education Investors Network</h5>
+                                <p>Developed a platform fostering collaboration between investors and innovative startups in the education sector.</p>
+                                <div class="tech-tags">
+                                    <span class="tag">PHP</span>
+                                    <span class="tag">Laravel</span>
+                                    <span class="tag">Cloud</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>IT Consultant</h3>
+                            <span class="timeline-date">Aug 2020 - Apr 2023</span>
+                        </div>
+                        <h4>AICTE (All India Council of Training & Education)</h4>
+                        <ul class="timeline-achievements">
+                            <li>Designed and developed SWAYAM translation AI portal for engineering courses</li>
+                            <li>Managed AICTE SWAYAM/NPTEL Portal serving thousands of students</li>
+                            <li>Data analysis and translation of Engineering Courses into 12 Indian languages</li>
+                            <li>Compilation of ARPIT Examination Results & Certificates</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tag">AI/ML</span>
+                            <span class="tag">Data Analysis</span>
+                            <span class="tag">Portal Management</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Assistant IT Manager</h3>
+                            <span class="timeline-date">Aug 2018 - Aug 2020</span>
+                        </div>
+                        <h4>Rigil Techno India Ltd.</h4>
+                        <ul class="timeline-achievements">
+                            <li>Management and maintenance of organization's IT infrastructure</li>
+                            <li>Developed backup strategies to minimize data loss and downtime</li>
+                            <li>Procurement of IT Hardware and inventory management</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tag">IT Infrastructure</span>
+                            <span class="tag">Database Management</span>
+                            <span class="tag">System Administration</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <p class="section-subtitle">Comprehensive technology stack for modern development</p>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>PHP</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3>Frameworks & Libraries</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Laravel</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="92"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>React JS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Node JS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud & DevOps</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Azure</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>AWS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="78"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Docker</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Database & Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>MySQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Git/GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Linux</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="82"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education & Certifications</h2>
+            <p class="section-subtitle">Continuous learning and professional development</p>
+            
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>M.Tech, Computer Science</h3>
+                    <h4>UPTU, Hindustan Institute of Technology Management</h4>
+                    <p class="education-year">2018</p>
+                    <p class="education-thesis">Research Thesis: Improving Energy Efficiency of Ethereum Mining</p>
+                    <a href="https://ijcrt.org/papers/IJCRT1872319.pdf" class="education-link" target="_blank">View Research Paper</a>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3>B.Tech, Information Technology</h3>
+                    <h4>AKTU, Noida Institute of Engineering and Technology</h4>
+                    <p class="education-year">2014</p>
+                    <p class="education-project">Final Year Project: Gesture Based Android Music Player</p>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Google Advanced Data Analytics Certification</h3>
+                    <p>Comprehensive certification in data analytics, statistical analysis, and data visualization</p>
+                    <a href="https://www.coursera.org/account/accomplishments/professional-cert/YB5271MK0AQ6" class="certification-link" target="_blank">Verify Certificate</a>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>.NET Developer Certification</h3>
+                    <p>Professional certification in Microsoft .NET framework and application development</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="section-subtitle">Ready to build something amazing together</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <a href="mailto:216.siddhartha@gmail.com">216.siddhartha@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <a href="tel:+91-7409369696">+91-7409369696</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>New Delhi, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <a href="http://linkedin.com/in/siddhartha-sharma-73a26141" target="_blank">Connect on LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Siddhartha Sharma. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
